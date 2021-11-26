@@ -1,0 +1,12 @@
+TESTING LOGGER!!!!
+Internal Server Error: /show/
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/opt/homebrew/lib/python3.9/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
